@@ -1,4 +1,4 @@
-# Arabic-NLP-LAB-2
+# Arabic NLP Lab 2 Analysis
 # Natural Language Processing (NLP) and Word Embedding Techniques
 
 This repository contains code examples and explanations for various Natural Language Processing (NLP) techniques and word embedding models implemented during a lab session. The provided code covers rule-based NLP using regular expressions, as well as advanced word embedding models such as Word2Vec, GloVe, and FastText.
