@@ -6,6 +6,18 @@ This repository contains code examples and explanations for various Natural Lang
 ## Introduction
 
 In this lab, we explored different methods for analyzing and processing textual data. Our primary objectives were to understand rule-based NLP techniques for extracting structured information from unstructured text and to explore word embedding models for representing words as dense vectors in continuous vector spaces.
+# NLP and Word Embedding Techniques
+
+## Objectives
+
+- Understand the fundamentals of Natural Language Processing (NLP).
+- Explore rule-based NLP techniques using regular expressions.
+- Implement basic text processing tasks such as tokenization and normalization.
+- Learn about word embedding techniques and their applications.
+- Experiment with advanced word embedding models like Word2Vec, GloVe, and FastText.
+- Gain insights into semantic relationships between words in text data.
+- Apply learned techniques to real-world text analysis tasks.
+
 
 ## Applied Approaches
 
@@ -26,7 +38,21 @@ We delved into advanced word embedding models:
 - **Word2Vec (Skip Gram and CBOW):** Learn word embeddings by predicting word context.
 - **GloVe (Global Vectors for Word Representation):** Combine global co-occurrence statistics for word representations.
 - **FastText:** Extend Word2Vec by considering word substructures for morphological similarities.
+## Prerequisites
 
+- Basic understanding of Python programming language.
+- Familiarity with fundamental concepts of machine learning and data preprocessing.
+- Knowledge of regular expressions for pattern matching.
+- Understanding of text preprocessing techniques such as tokenization, stemming, and lemmatization.
+- Prior exposure to libraries such as NumPy, pandas, and scikit-learn for data manipulation and analysis.
+- Awareness of neural network architectures and their applications in NLP (recommended but not mandatory).
+- Access to a Python environment with necessary libraries installed (e.g., NumPy, pandas, scikit-learn, gensim).
+- Familiarity with Git version control system for accessing and managing code repositories (optional but recommended for collaboration and version tracking).
+### Libraries Installation
+
+```
+pip install pandas numpy scikit-learn nltk gensim matplotlib pymongo
+```
 ## Conclusion
 
 This lab provided valuable insights into NLP techniques and word embedding models, showcasing their applications in text processing and analysis. By mastering these techniques, we can effectively extract structured information from unstructured text data and capture semantic relationships between words. These skills are essential for various NLP applications, including sentiment analysis, document classification, and machine translation.
@@ -35,11 +61,3 @@ This lab provided valuable insights into NLP techniques and word embedding model
 
 Each code example is provided as a separate Python script in the repository. Simply clone the repository and run the scripts to see the implementations in action.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- The code examples in this repository are adapted from various online resources and educational materials.
-- Special thanks to the contributors and maintainers of the libraries used in this project.
